@@ -10,8 +10,10 @@ function rotate(){
   myIndexNum = (myIndexNum + 3) % messages.length;
 }
 
-textAnimate.style.transform = "rotateY(360deg)";
+let myColorNum = 0;
 
+textAnimate.style.transform = "rotateY(360deg)";
+textAnimate.style.color = "#024282";
 // Setting the intervals for the text to rotate
 setInterval(rotate, 2000); // For every 2 seconds, the text will rotate constantly.
 

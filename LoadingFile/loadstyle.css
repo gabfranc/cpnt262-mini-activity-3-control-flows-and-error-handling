@@ -28,30 +28,9 @@ body{
   color:aliceblue;
 }
 
-span:nth-child(n + 1){
-  color:#4636a4;
-}
-
-span:nth-child(2n - 6){
-  color:#432277;
-}
-
-span:nth-child(2n + 1){
-  color:#1f50b3;
-}
-
 span {
+  color:#065bb1;
   position: absolute;
-  animation: rotate 0.3s linear infinite;
-}
-
-@keyframes textAnimate {
-  0% {
-    transform: rotateY(0deg);
-  }
-  100% {
-    transform: rotateY(360deg);
-  }
 }
 
 
