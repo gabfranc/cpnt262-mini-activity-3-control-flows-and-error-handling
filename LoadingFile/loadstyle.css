@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Patrick+Hand&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Patrick Hand", cursive;
+  transform-style:preserve-3d;
+  background: linear-gradient(45deg, #33ccff, #3399ff);
+}
+
+
+#text-animate {
+  display: inline-flex;
+  position:relative;
+  overflow: hidden;
+  flex-direction: row;
+  font-size: 40px;
+}
+
+#text-animate p {
+  color:aliceblue;
+}
+
+span:nth-child(n + 1){
+  color:#4636a4;
+}
+
+span:nth-child(2n - 6){
+  color:#432277;
+}
+
+span:nth-child(2n + 1){
+  color:#1f50b3;
+}
+
+span {
+  position: absolute;
+  animation: rotate 0.3s linear infinite;
+}
+
+@keyframes textAnimate {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+
+
+
+
+

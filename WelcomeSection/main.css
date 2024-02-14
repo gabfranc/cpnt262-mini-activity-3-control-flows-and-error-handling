@@ -12,7 +12,7 @@ body {
   height: 110vh;
   overflow: hidden;
   font-family: "Patrick Hand", cursive;
-  background: linear-gradient(45deg, #33ccff, #3399ff);
+  background: linear-gradient(20deg, #193257, #31235d, #170c60);
   transform-style:preserve-3d;
 }
 
@@ -38,7 +38,7 @@ button a {
 
 button:hover {
   background: linear-gradient(90deg, #b0ccf6, #779ad7, #8bb1f3);
-  
+
   font-weight: 500;
   margin-left: 5vh;
   margin-top: 3vh;
@@ -54,7 +54,6 @@ button:hover {
   transition: transform 0.3s ease-in-out;
  }
 
- .darkBtn {
-  background: linear-gradient(90deg, #193257, #31235d, #170c60);
- 
+ .lightBtn {
+  background: linear-gradient(90deg, #33ccff, #3399ff);
  }
