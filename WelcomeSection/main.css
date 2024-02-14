@@ -53,3 +53,8 @@ button:hover {
   margin-top: 3vh;
   transition: transform 0.3s ease-in-out;
  }
+
+ .darkBtn {
+  background: linear-gradient(90deg, #193257, #31235d, #170c60);
+ 
+ }
