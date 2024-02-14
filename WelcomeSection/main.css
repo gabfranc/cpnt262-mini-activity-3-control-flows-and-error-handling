@@ -20,27 +20,30 @@ button {
   position: relative;
   border-radius: 30vh;
   border: none;
-  background: linear-gradient(45deg, #b6cae9, #a1bce6);
+  background: linear-gradient(90deg, #91b0de, #9dbbef, #7492c6);
   box-shadow: 15px 15px 0 #363484;
   color: #110e68;
-  font-family: "Arsenal", sans-serif;
-  font-weight: 600;
-  font-size: 6vh;
   height: 30vh;
   width: 70vh;
   cursor: pointer;
 }
 
+button a {
+  text-decoration: none;
+  color: #110e68;
+  font-family: "Arsenal", sans-serif;
+  font-weight: 600;
+  font-size: 6vh;
+}
+
 button:hover {
-  background: linear-gradient(45deg, #9cbbea, #81a7e3);
   box-shadow:10px 10px 0 #363484;
+  background: linear-gradient(90deg, #b0ccf6, #779ad7, #8bb1f3);
+  
   font-weight: 500;
   margin-left: 5vh;
   margin-top: 3vh;
   transition: transform 0.3s ease-in-out;
 }
 
-.dark_mode {
-  background: linear-gradient(45deg, #0d1354, #010f2c);
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
