@@ -1,1 +1,1 @@
-alert = prompt('Hello Universe! Enter Your Name');
+//alert = prompt ('Hello Universe! Enter Your Name');
