@@ -1,5 +1,5 @@
 //toggle button animation 
-const btnEffect = document.querySelector('a');
+const btnEffect = document.querySelector('button');
 btnEffect.forEach(button => {
   button.addEventlistener('click', function(e) {
     let btnX = e.clientX - e.target.offsetLeft;
@@ -9,5 +9,9 @@ btnEffect.forEach(button => {
     ripEffect.style.left = x + 'px';
     ripEffect.style.top = y + 'px';
     this.appendChild(ripEffect);
+
+    setTimeout(() => {
+      ripEffect.remove()
+    }, 1000);
   });
 })

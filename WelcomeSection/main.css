@@ -37,7 +37,6 @@ button a {
 }
 
 button:hover {
-  box-shadow:10px 10px 0 #363484;
   background: linear-gradient(90deg, #b0ccf6, #779ad7, #8bb1f3);
   
   font-weight: 500;
@@ -47,3 +46,10 @@ button:hover {
 }
 
 
+ button:active{
+  box-shadow:10px 10px 0 #1f1d5e;
+  background: linear-gradient(90deg, #4b6c9d, #42639b, #3b6cc2);
+  margin-left: 5vh;
+  margin-top: 3vh;
+  transition: transform 0.3s ease-in-out;
+ }
