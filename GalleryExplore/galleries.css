@@ -14,22 +14,28 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   font-family: "Arsenal", sans-serif;
-  transform-style:preserve-3d;
   background: linear-gradient(45deg, #33ccff, #3399ff);
 }
 
 
 header {
-  margin-top: 5vh;
+  margin-top: 0;
+  padding-top: 7vh;
   display: flex;
+  background: linear-gradient(45deg, #3370ff, #335cff);
+  height: 20vh;
+  width: 80rem;
 }
 
+header .heading {
+  text-align: left;
+  margin-right: 65vh;
+}
 nav {
   display: inline-flex;
   flex-direction: row;
-  gap: 10vh;
+  gap: 30vh;
 }
 
 nav a {
@@ -47,28 +53,4 @@ img {
   object-fit: cover;
 }
 
-#preLoad {
-  height:100%;
-  width:100%;
-  position: fixed;
-  z-index:100;
-  background: linear-gradient(45deg, #33ccff, #3399ff) 
 
-}
-
-
-#text-animate {
-  display: inline-flex;
-  position:relative;
-  overflow: hidden;
-  flex-direction: row;
-  font-size: 40px;
-}
-
-#text-animate p {
-  color:aliceblue;
-}
-
-span {
-  position: absolute;
-}

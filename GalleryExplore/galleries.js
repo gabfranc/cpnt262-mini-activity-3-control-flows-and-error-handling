@@ -12,24 +12,16 @@ const imgBox = [
   '/Images/Karma is a Cat.png'
 ];
 
+console.log(imgBox);
 
+const imgContent = document.getElementById('imgBox');
 
-//this is the loading setting
-
-const textAnimate = document.getElementById('message');
-const messages = ['HTML', 'CSS', 'JAVASCRIPT', 'PHOTOSHOP', 'INDESIGN', 'FIGMA', 'PYTHON', 'JAVA', 'BOOTSTRAP', 'GITHUB', 'GITBASH'];
-
-let myIndexNum = 0;
-
-function rotate(){
-  textAnimate.textContent = messages[myIndexNum];
-  myIndexNum = (myIndexNum + 3) % messages.length;
+for (let i = 0; i < imgBox.length; i++) {
+  const imgElement = document.createElement('img');
+  imgBox.src = imgBox[i];
+  imgElement.appendChild(imgBox);
 }
 
-let myColorNum = 0;
+document.getElementById('imgBox').textContent = imgElement.appendChild(imgBox);
 
-textAnimate.style.transform = "rotateY(360deg)";
-textAnimate.style.color = "#024282";
-// Setting the intervals for the text to rotate
-setInterval(rotate, 2000); // For every 2 seconds, the text will rotate constantly.
 
