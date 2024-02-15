@@ -12,8 +12,8 @@ function rotate(){
 
 let myColorNum = 0;
 
-textAnimate.style.transform = "rotateY(360deg)";
+textAnimate.style.transform = "rotate(360deg)";
 textAnimate.style.color = "#024282";
 // Setting the intervals for the text to rotate
-setInterval(rotate, 1000); // For every 2 seconds, the text will rotate constantly.
+setInterval(rotate, 360); // For every 2 seconds, the text will rotate constantly.
 

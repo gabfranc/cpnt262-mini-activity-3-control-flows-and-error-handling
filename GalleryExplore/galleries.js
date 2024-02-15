@@ -2,6 +2,18 @@
 
 //this is the settings of the gallery page
 
+//adding images using array
+
+const imgBox = [
+  '/Images/1989edit.png',
+  '/Images/conniebaby.png',
+  '/Images/DOUBLE.png',
+  '/Images/dumplingarts.png',
+  '/Images/Karma is a Cat.png'
+];
+
+
+
 //this is the loading setting
 
 const textAnimate = document.getElementById('message');

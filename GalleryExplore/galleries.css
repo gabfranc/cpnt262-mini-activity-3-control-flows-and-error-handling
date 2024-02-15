@@ -14,11 +14,11 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
   font-family: "Arsenal", sans-serif;
   transform-style:preserve-3d;
   background: linear-gradient(45deg, #33ccff, #3399ff);
 }
-
 
 
 header {
@@ -38,4 +38,37 @@ nav a {
 
 li {
   list-style-type: none;
+}
+
+img {
+  height: 150%;
+  width: 150%;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+#preLoad {
+  height:100%;
+  width:100%;
+  position: fixed;
+  z-index:100;
+  background: linear-gradient(45deg, #33ccff, #3399ff) 
+
+}
+
+
+#text-animate {
+  display: inline-flex;
+  position:relative;
+  overflow: hidden;
+  flex-direction: row;
+  font-size: 40px;
+}
+
+#text-animate p {
+  color:aliceblue;
+}
+
+span {
+  position: absolute;
 }
