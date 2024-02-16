@@ -10,14 +10,23 @@ body{
   display:flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   height: 100vh;
   font-family: "Patrick Hand", cursive;
   transform-style:preserve-3d;
   background: linear-gradient(45deg, #33ccff, #3399ff);
 }
 
+.textBtn {
+  margin-top: 40vh;
+}
+
+.textBtn a {
+  text-decoration: none;
+}
 
 #text-animate {
+  margin-top: 30vh;
   display: inline-flex;
   position:relative;
   overflow: hidden;

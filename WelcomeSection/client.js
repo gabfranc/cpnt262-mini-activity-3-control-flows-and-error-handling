@@ -1,4 +1,6 @@
 // toggle switch will turn body background light and turn to another page.
+"use strict";
+
 const btn = document.body;
 
 let btnText = "hello universe!";
