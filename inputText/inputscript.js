@@ -1,7 +1,6 @@
 
 // Remove Trailing Whitespace in a Text
-"use strict";
-
+"use strict"
 let textString = "Javascript";
 
 let wSpace = textString.replace(/\s/g,'');

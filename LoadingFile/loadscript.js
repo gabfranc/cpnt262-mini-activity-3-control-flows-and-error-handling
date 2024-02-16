@@ -2,6 +2,7 @@
 
 //error Handling
 
+// if user clicks the words "This is ..." there will be an error.
 function clickTxt () {
   const click = document.getElementById("click").textContent;
 
