@@ -16,6 +16,12 @@ function buttonInput () {
 
   text.innerHTML = "Welcome" + input.value + "!";
 }
+try {
+  throw input.value;
+  console.log('user is valid');
+} catch(err) {
+  console.error('user is invalid');
+  document.getElementById("button").innerHTML = input.value;
+}
 
-console.error("nameInput" + "sorry this is unavailable");
 
