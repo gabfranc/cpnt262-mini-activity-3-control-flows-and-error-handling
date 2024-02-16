@@ -17,16 +17,8 @@ body{
   background: linear-gradient(45deg, #33ccff, #3399ff);
 }
 
-.textBtn {
-  margin-top: 40vh;
-}
-
-.textBtn a {
-  text-decoration: none;
-}
-
 #text-animate {
-  margin-top: 30vh;
+  margin-top: 10vh;
   display: inline-flex;
   position:relative;
   overflow: hidden;
@@ -36,6 +28,7 @@ body{
 
 #text-animate p {
   color:aliceblue;
+  cursor: pointer;
 }
 
 span {
