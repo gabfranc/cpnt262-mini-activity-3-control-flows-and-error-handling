@@ -9,19 +9,18 @@ console.log(wSpace);
 
 // adding the input text
 
+document.getElementById('form').addEventListener('submit', function(event){
+  event.preventDefault(); //If error shows form will not submit
 
-function buttonInput () {
-  const input = document.getElementById("nameInput");
-  const text = document.getElementById("textName");
+  const myNameInput = document.getElementById('nameInput').value;
+  const myText = document.getElementById('textName');
+  if(isNaN(myNameInput)) {
+    console.log('name is valid');
+    myText.innerHTML = "Welcome" + myNameInput + "!";
+  } else {
 
-  text.innerHTML = "Welcome" + input.value + "!";
-}
-
-if (isNaN(input)) {
-  console.log("Name is Valid");
-} else {
-  console.error("Name is invalid");
-}
-
-console.error("nameInput" + "sorry this is unavailable");
-
+    //if user puts in a number error message will show up.
+    console.error('name is invalid, please try again');
+    myText.innerHTML = "name is invalid, please try again";
+  }
+})

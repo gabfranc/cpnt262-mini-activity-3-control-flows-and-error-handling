@@ -12,21 +12,12 @@
   <script src="/inputText/inputscript.js" defer></script>
 </head>
 <body>
-  
-<div class="container">
   <h1 id="titleName"></h1>
-    <h1 id="textName"></h1>
-  <form id="formText" action="/LoadingFile/load.html">
+  <h1 id="textName"></h1>
 
-    <div id="input">
-      <input type="text" id="nameInput" name="name" value="name" required>
-      <div id="error"></div>
-    </div>
-
-    <button id="button" type="submit"> Enter </button>
-
+  <form id="form" action="/LoadingFile/load.html" autocomplete="off">
+      <input id="nameInput" type="text" name="name" value="name" required> 
+    <button id="button" type="submit">Enter</button>
   </form>
-</div>
-
 </body>
 </html>
