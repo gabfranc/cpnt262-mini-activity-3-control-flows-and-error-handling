@@ -18,7 +18,7 @@ body{
 }
 
 #text-animate {
-  margin-top: 10vh;
+  margin-top: 45vh;
   display: inline-flex;
   position:relative;
   overflow: hidden;
@@ -34,6 +34,20 @@ body{
 span {
   position: absolute;
 }
+
+a {
+  text-decoration: none;
+  color:#0d5cab;
+}
+
+a:hover{
+  color:#2c84dc;
+}
+
+.clickMessage {
+  margin-top: 40vh;
+}
+
 
 
 

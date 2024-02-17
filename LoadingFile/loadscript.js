@@ -5,10 +5,8 @@
 // if user clicks the words "This is ..." there will be an error.
 function clickTxt () {
   const click = document.getElementById("click").textContent;
+    console.error("Sorry content not available");
 
-  click.addEventListener("click", (event) => {
-    click.textContent = console.error("Sorry content not available");
-  })
 }
 
 // Text will change constantly on loading page
