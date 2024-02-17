@@ -15,6 +15,7 @@ document.getElementById('form').addEventListener('submit', function(event){
   const myNameInput = document.getElementById('nameInput').value;
   const myText = document.getElementById('textName');
   if(isNaN(myNameInput)) {
+    // if user puts in a name, the text will show welcome[user]!
     console.log('name is valid');
     myText.innerHTML = "Welcome" + myNameInput + "!";
   } else {
