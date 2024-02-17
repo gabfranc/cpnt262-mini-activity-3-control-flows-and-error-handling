@@ -8,7 +8,7 @@
 
 body{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -17,25 +17,49 @@ body{
   background: linear-gradient(45deg, #5094f3, #5aa9f7);
 }
 
-button {
-  background: linear-gradient(45deg, #13376a, #313ab6);
-  border-radius: 10px;
-  border: none;
-  height: 7vh;
-  width: 15vh;
+.container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+}
+#formText {
+  text-align: center;
+  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 
 input {
-  margin-top: 10vh;
+  height: 5vh;
+  width: 40vh;
   text-align: center;
+  font-family: "Arsenal", sans-serif;
+  font-weight: 600;
   border: none;
   border-radius: 10px;
-  height: 8vh;
-  width: 38vh;
+  box-shadow: 3px 3px 0 #4288ea;
 }
 
-button a {
-  text-decoration: none;
-  font-weight: 600;
-  color:#5094f3;
+input.success {
+  border-color:#6650f3;
 }
+
+input.error {
+  border-color: orange;
+}
+button {
+  position: relative;
+  justify-content: center;
+  align-items: center; position: relative;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  height: 5vh;
+  width: 10vh;
+  background: linear-gradient(45deg, #6650f3, #815af7);
+  color:#5aa9f7;
+  border-radius: 10px;
+  border: none;
+
+}
+
