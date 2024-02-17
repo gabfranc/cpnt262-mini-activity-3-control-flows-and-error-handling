@@ -17,13 +17,13 @@ body{
   background: linear-gradient(45deg, #5094f3, #5aa9f7);
 }
 
-.container {
+form {
   margin-top: 30vh;
   display: flex;
   position: relative;
   flex-direction: column;
 }
-#formText {
+#form {
   text-align: center;
   position: relative;
   justify-content: center;
